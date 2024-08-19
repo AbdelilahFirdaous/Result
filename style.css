@@ -1,0 +1,215 @@
+*{
+    background-color:#edf2f8;
+}
+
+.container {
+    margin-top: 90px;
+    display: grid;
+    grid-template-columns: repeat(2,300px);
+    grid-template-rows: repeat(6,80px);
+    justify-content: center;
+    background-color:transparent;
+    border-radius: 10px 10px 10px 10px;
+}
+.cache{
+    background-color: #5e3ffc;
+    grid-column: 1 / 3;
+    grid-row: 1 / 7;
+    border-radius: 30px 30px 30px 30px;
+    background-color: #ffffff;
+}
+.Resultat{
+    background-color:#6340fc;
+    grid-column: 1 / 2;
+    grid-row: 1 / 7;
+    border-radius: 30px 30px 30px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.score{
+    background-color: #ffffff;
+    grid-column: 2 / 3;
+    grid-row: 1 / 7;
+    border-radius: 0px 30px 30px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.rslt{
+    width: 100px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #a49dff;
+    font-family: Arial;
+    font-weight: bold;
+}
+.note{
+    width: 150px;
+    height: 150px;
+    background-color: #4728d5;
+    border-radius: 90px 90px 90px 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    background: linear-gradient(to top,#6340fc, 50%, blue);
+}
+.mention{
+    width: 70px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 10px 10px 10px 10px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fffffa;
+    font-size: 35px;
+    font-family: Arial;
+    font-weight: bold;
+}
+.appreciation{
+    width: 200px;
+    height: 90px;
+    background-color:transparent;
+    border-radius: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #a49dff;
+    font-family: Arial;
+    text-align: center;
+    font-weight: bold;
+}
+.Summary{
+    width: 250px;
+    height: 50px;
+    background-color:transparent;
+    border-radius: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.reaction{
+    width: 250px;
+    height: 50px;
+    background-color:#fff6f5;
+    border-radius: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-around;
+    align-items: center;
+    color: #c88789;
+}
+.libellé{
+    margin-right: 60px;
+    margin-left: -20;
+    width: 250px;
+    height: 50px;
+    background-color:transparent;
+    border-radius: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.memory{
+    width: 250px;
+    height: 50px;
+    background-color:#fffbf2;
+    border-radius: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: #d1b54c;
+}
+.verbal{
+    width: 250px;
+    height: 50px;
+    background-color:#f2fbfa;
+    border-radius: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: #5fb4a2;
+}
+.Visual{
+    width: 250px;
+    height: 50px;
+    background-color:#f3f3fd;
+    border-radius: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: #383e8f;
+}
+.Continue{
+    width: 250px;
+    height: 50px;
+    background-color: #303b59;
+    border-radius: 30px 30px 30px 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    color:#d9dfea;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial;
+}
+.chiffre{
+    background-color: transparent;
+    color:#fffffa;
+    font-weight: bolder;
+    font-size: 65px;
+    font-family: Arial;
+}
+.fraction{
+    background-color: transparent;
+    color: #6355e0;
+    font-weight: bold;
+    font-family: Arial;
+}
+.photo{
+height: 30px;
+width: 30px;
+background-color: transparent;
+}
+.libellé{
+height: 40px;
+width: 80px;
+}
+.cent{
+    height: 40px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    color: grey;
+    font-weight: bold;
+    font-family: Arial;
+}
